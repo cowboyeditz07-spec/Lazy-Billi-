@@ -116,7 +116,7 @@ export async function loadCommands(client) {
         }
     }
     
-    logger.info(`Loaded ${uniqueCommands.size} commands`);
+    console.log(commandsToRegister.map(c => c.name));
     return client.commands;
 }
 
