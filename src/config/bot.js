@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        state: "sleeping ᶻ 𝗓 𐰁",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -34,7 +34,7 @@ export const botConfig = {
   // COMMAND BEHAVIOR
   // =========================
   commands: {
-    // Bot owner user IDs (comma-separated in OWNER_IDS env var).
+    // Bot owner user IDs (1515332270024560673).
     // Owners can access owner/admin-level bot commands.
     owners: process.env.OWNER_IDS?.split(",").map((id) => id.trim()).filter(Boolean) || [],
 
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "",
       // Footer icon URL (null = no icon).
       icon: null,
     },
