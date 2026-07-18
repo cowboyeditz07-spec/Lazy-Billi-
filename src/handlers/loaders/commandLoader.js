@@ -116,7 +116,7 @@ export async function loadCommands(client) {
         }
     }
     
-    console.log(commandsToRegister.map(c => c.name));
+    console.log([...client.commands.keys()]);
     return client.commands;
 }
 
