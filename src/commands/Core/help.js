@@ -101,7 +101,7 @@ export async function createInitialHelpMenu(client) {
             },
             {
                 name: '\u200B',
-                value: "-# © 2026 an4shfr . All rights reserved.",,
+                value: "-# © 2026 an4shfr . All rights reserved.",
                 inline: false,
             },
         ],
