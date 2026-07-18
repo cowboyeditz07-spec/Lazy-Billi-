@@ -1,3 +1,4 @@
+console.log("HELP COMMAND LOADED");
 import {
     SlashCommandBuilder,
     ActionRowBuilder,
