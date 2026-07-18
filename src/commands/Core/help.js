@@ -117,11 +117,6 @@ export async function createInitialHelpMenu(client) {
         .setLabel("Report Bug")
         .setStyle(ButtonStyle.Danger);
 
-    const supportButton = new ButtonBuilder()
-        .setLabel("Support Server")
-        .setURL("")
-        .setStyle(ButtonStyle.Link);
-
     const selectRow = createSelectMenu(
         CATEGORY_SELECT_ID,
         "Select to view the commands",
